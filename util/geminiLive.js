@@ -4,8 +4,8 @@ import { base64ToArrayBuffer, arrayBufferToBase64 } from "@/util/converters";
 
 // WARNING: In production, use ephemeral tokens instead of an API key, as using API keys is not safe.
 // For more information, refer to https://ai.google.dev/docs
-const API_KEY = process.env.GEMINI_API_KEY;
-
+const API_KEY = process.env.NEXT_PUBLIC_GEMINI_API_KEY;
+console.log("API_KEY", API_KEY);
 
 class GeminiLiveClient extends EventEmitter {
   static instance = null;

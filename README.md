@@ -49,7 +49,7 @@ It uses the `gemini-2.0-flash-live-001` model that produces output through semi-
 3. Set up environment variables:
    Create a `.env.local` file in the root directory and add your Gemini API credentials:
    ```env
-   GEMINI_API_KEY=your_api_key_here
+   NEXT_PUBLIC_GEMINI_API_KEY=your_api_key_here
    ```
 
 4. Run the development server:
